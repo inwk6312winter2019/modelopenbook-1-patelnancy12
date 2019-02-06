@@ -15,7 +15,5 @@ def list_ifname_ip():
       v=v.split()
       interface_list.append(v)
       print(interface_list)
-     return intdict
-   print(list_ifname_ip())
 
 list_ifname_ip()
